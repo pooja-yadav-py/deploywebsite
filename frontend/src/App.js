@@ -4,7 +4,7 @@ import axios from 'axios';
 function App() {
   const [message, setMessage] = useState('');
 
-  useEffect(() => {
+  /* useEffect(() => {
     axios.get('http://localhost:5000/api')
       .then(response => {
         setMessage(response.data);
@@ -12,11 +12,14 @@ function App() {
       .catch(error => {
         console.error("There was an error!", error);
       });
-  }, []);
+  }, []); */
+
+  
+
 
   return (
     <div>
-      <h1>{message}</h1>
+      <h1>Hello my name is pooja</h1>
     </div>
   );
 }
